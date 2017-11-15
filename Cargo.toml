@@ -1,0 +1,10 @@
+[package]
+name = "gitstat"
+version = "0.1.0"
+authors = ["Dotan Nahum <jondotan@gmail.com>"]
+
+[dependencies]
+walkdir = "*"
+git2 = "*"
+ignore = "*"
+clap = "*"
