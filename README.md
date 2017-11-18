@@ -21,14 +21,22 @@ Or download a recent binary from [releases](https://github.com/jondot/gitstat/re
 
 You can now let `gitstat` scan one or more root paths:
 
-    gitstat ~/projects ~/experiments
+    $ gitstat ~/projects
+    ./apophis
+    ./awesome-websec
+    ./datafusion
+        :
+        :
+    ./writing/decks/katas/go-koans
+    ./zoid-landingpage
+    uncommitted: 166 of 78174. took: 13s.
 
 Within seconds, you should have a listing of 'dirty' Git repositories.
 
 
 ## Automate
 
-`gitstat` is fast. You can set up a cron job that runs it on a critical root path (say, `~/work`) to remind you to finish your work or commit work-in-progress bits to a branch.
+`gitstat` is _fast_. You can set up a cron job that runs it on a critical root path (say, `~/work`) to remind you to finish your work or commit work-in-progress bits to a branch.
 
 
 # Contributing
