@@ -1,11 +1,11 @@
 # Gitstat
 
 ```
-                  _ __      __       __ 
-            ___ _(_) /____ / /____ _/ /_
+                   _ __      __       __ 
+             ___ _(_) /____ / /____ _/ /_
             / _ `/ / __(_-</ __/ _ `/ __/
             \_, /_/\__/___/\__/\_,_/\__/ 
-            /___/     
+           /___/     
 ```
 
 Perform a fast scan of your entire filesystem for Git repositories with uncommitted work.
